@@ -42,7 +42,9 @@ class _PaymentAppState extends State<PaymentApp> {
                   selectedIndex == index 
                     ? Image.asset('images/checked_group.png', width: 18, height: 18,) 
                     : Image.asset('images/check.png', width: 18, height: 18,),
+                  SizedBox(width: 16,),
                   Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
                         title,
